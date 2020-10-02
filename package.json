@@ -1,17 +1,30 @@
 {
-  "name": "current-project",
+  "name": "realtimechatapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "simple real time chat app",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "usbangelo",
   "license": "ISC",
   "dependencies": {
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.3.0"
   },
   "devDependencies": {
-    "nodemon": "^1.19.0"
-  }
+    "nodemon": "^1.19.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usbangelo/chatterwebapp.git"
+  },
+  "keywords": [
+    "realtime",
+    "chatapp"
+  ],
+  "bugs": {
+    "url": "https://github.com/usbangelo/chatterwebapp/issues"
+  },
+  "homepage": "https://github.com/usbangelo/chatterwebapp#readme"
 }

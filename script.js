@@ -1,6 +1,6 @@
 const socket = io('http://localhost:3000')
 const messageContainer = document.getElementById('message-container')
-const messageForm = document.getElementById('send-container')
+const messageForm = document.getElementById('enviar-container')
 const messageInput = document.getElementById('message-input')
 
 const name = prompt('What is your name?')
